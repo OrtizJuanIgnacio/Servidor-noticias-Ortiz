@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Publicar noticia — Noticias Breves</title>
+  <link rel="stylesheet" href="/public/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Noticias Breves</h1>
+    <nav><a href="/">← Volver al inicio</a></nav>
+  </header>
+
+  <main>
+    <h2>Publicar nueva noticia</h2>
+
+    <!-- Los datos se envían por POST a /publicar -->
+    <form action="/publicar" method="post">
+
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required maxlength="200" placeholder="Título de la noticia">
+
+      <label for="cuerpo">Contenido:</label>
+      <textarea id="cuerpo" name="cuerpo" required placeholder="Escribí el cuerpo de la noticia..."></textarea>
+
+      <button type="submit">Publicar</button>
+
+    </form>
+  </main>
+
+  <footer><p>NoticiasBreves — Node.js puro</p></footer>
+
+</body>
+</html>

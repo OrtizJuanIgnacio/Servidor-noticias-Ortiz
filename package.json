@@ -1,0 +1,16 @@
+{
+  "name": "mi-servidor-de-noticias-ortiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mime": "^3.0.0"
+  }
+}
