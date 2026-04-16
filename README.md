@@ -1,8 +1,8 @@
 # NoticiasBreves — AO1 Programación de Aplicaciones Web II
 
 **Alumno/a:** Ortiz Juan Ignacio     
-**Fecha de entrega:** _(completar)_  
-**Enlace al repositorio:** 
+**Fecha de entrega:** 16/4/2026  
+**Enlace al repositorio:** https://github.com/OrtizJuanIgnacio/Servidor-noticias-Ortiz.git
 
 ---
 
